@@ -23,7 +23,7 @@ int main()
     //configure the client socket with server config for the connection.
     client.sin_family = AF_INET;
     client.sin_addr.s_addr = INADDR_ANY;
-    client.sin_port = 4000;
+    client.sin_port = 7000;
 
     //connect the server.
     len = sizeof(client);
